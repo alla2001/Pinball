@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1763720453262948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4569350647877442}
+  - component: {fileID: 114702056077808938}
+  m_Layer: 0
+  m_Name: CombinerMesh_v2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4569350647877442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763720453262948}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114702056077808938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763720453262948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7205fd5797f180a4b950dd6113187bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SeeInspector: 0
+  list_Materials:
+  - {fileID: 2100000, guid: 754da27282454a24b8634b20b1c7433a, type: 2}
+  - {fileID: 2100000, guid: d9a5e1d04df0d5a439a2ef75b32cad8f, type: 2}
+  - {fileID: 2100000, guid: bcfa7113588ae9f4785b2328176ad245, type: 2}
+  - {fileID: 2100000, guid: 8b43e5cac0834dd4481bdcaf08fdfc61, type: 2}
+  - {fileID: 2100000, guid: 6d83f1b2f5d119a40813bb038f6a7031, type: 2}
+  - {fileID: 2100000, guid: dc22317d96443d147884168696960a27, type: 2}
+  - {fileID: 2100000, guid: 0dce7ced0d7a54743893835088ec3624, type: 2}
+  - {fileID: 2100000, guid: aa334da15245ecc4090feb358ee8abfa, type: 2}
+  - {fileID: 2100000, guid: da0fb0d76fa2a1a459e194fadbcbe7c1, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d288769e1bd82d24bb2c298c6bd6e7d3, type: 2}
+  - {fileID: 2100000, guid: 368d4d264e8f5b64b8ccacbeee1b1019, type: 2}
+  - {fileID: 2100000, guid: 5008b587e3f565440a00d352267c556a, type: 2}
+  - {fileID: 2100000, guid: 21a73e28ee6da44428294947daf1e0a4, type: 2}
+  - {fileID: 2100000, guid: b3e55c8b80f3af842af9d73b5104e656, type: 2}
+  - {fileID: 2100000, guid: 955308244cf2a6943a9c95e06dfb3401, type: 2}
+  list_Tags:
+  - Flipper
+  - NoCombineMesh
+  - Plunger
+  - AnimatedObject
+  - spinner
+  - Leds
+  list_CombineObjects: []
+  list_CreatedObjects: []
+  CombineDone: 0
+  moreOptions: 0
+  f_ScaleInLightmap: 1
+  b_StitchSeams: 0
+  _HardAngle: 88
+  _PackMargin: 0.04
+  _AngleError: 0.08
+  _AreaError: 0.15
+  keepShadowMode: 1
